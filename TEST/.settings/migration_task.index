@@ -1,5 +1,10 @@
 {
   "migrationTask" : [ {
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "7.2.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.core.migration.ItemSaveTriggerWholeDoc",
     "breaks" : "7.0.0",
     "version" : "7.0.0",
@@ -239,6 +244,11 @@
     "breaks" : "6.2.1",
     "version" : "6.2.1",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.hadoopcluster.model.migration.MoveHDFSAndHCatalogToHadoopFolderMigrationTask",
+    "breaks" : "5.3.0",
+    "version" : "5.3.0",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.json.migrations.JsonPathMigrationTask",
     "breaks" : "6.0.0",
@@ -1155,11 +1165,6 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
-    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
-    "breaks" : "5.1.1",
-    "version" : "5.1.2",
-    "status" : "noimpact"
-  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
@@ -1168,11 +1173,6 @@
     "id" : "org.talend.repository.model.migration.FixWrongDbTypesMigrationTask",
     "breaks" : "5.1.9",
     "version" : "5.1.2",
-    "status" : "noimpact"
-  }, {
-    "id" : "org.talend.repository.model.migration.GenerateJobPomMigrationTask",
-    "breaks" : "7.0.1",
-    "version" : "7.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.HandleOracleSchemaMigrationTask",
